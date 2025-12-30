@@ -36,8 +36,8 @@ jobs:
           # Set this to your repository name (e.g., 'workout-app')
           # If your repo is at github.com/username/workout-app, use '/workout-app/'
           # For root domain (username.github.io), leave empty or use '/'
-          # You can set VITE_BASE_PATH as a GitHub secret, or it will default to '/'
-          VITE_BASE_PATH: ${{ secrets.VITE_BASE_PATH || '/' }}
+          # You can set VITE_BASE_PATH as a GitHub secret, or it will default to '/Professional-Progressional/'
+          VITE_BASE_PATH: ${{ secrets.VITE_BASE_PATH || '/Professional-Progressional/' }}
         run: npm run build
 
       - name: Setup Pages
