@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 // Get the base path from environment variable or default to repo name
 // For GitHub Pages, this should be your repository name (e.g., '/workout-app/')
 // Set it via: export VITE_BASE_PATH=/your-repo-name/ or leave empty for root
-const base = process.env.VITE_BASE_PATH || '/'
+const base = process.env.VITE_BASE_PATH || '/Professional-Progressional/'
 
 // https://vitejs.dev/config/
 export default defineConfig({
