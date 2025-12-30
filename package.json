@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "setup:deploy": "node scripts/auto-setup.js",
-    "create:icons": "node scripts/create-icons-simple.js && node scripts/create-png-icons.js"
+    "create:icons": "node scripts/create-icons-simple.js && node scripts/create-png-icons.js",
+    "push:github": "node scripts/push-to-github.js"
   },
   "dependencies": {
     "date-fns": "^3.0.0",
